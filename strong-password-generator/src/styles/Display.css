@@ -1,0 +1,28 @@
+.display {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.display input,
+.display button {
+    border: 0;
+    padding: 0.5rem;
+}
+
+.display input {
+    border-radius: 0.2rem 0 0 0.2rem;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--really-dark-grey);
+}
+
+.display button {
+    border-radius: 0 0.2rem 0.2rem 0;
+    background-color: var(--really-dark-grass);
+    color: var(--light-grey);
+    font-size: 0.9rem;
+}
+

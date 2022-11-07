@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #B0BEC5;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #90A4AE;
+}
+
+.btnDelete {
+    background-color: #EF5350;
+    color: #FFFFFF;
+}
+
+.btnDelete:hover {
+    background-color: #B71C1C;
+}
+
+.marginLeft {
+    margin-left: 0.5rem;
+}
+
+.footerP {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footerA {
+    text-decoration: none;
+    color: #607D8B;
+}
+
+@media screen and (min-width: 768px){
+    .marginLeft {
+        margin-left: 1rem;
+    }
+    
+}

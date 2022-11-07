@@ -1,0 +1,48 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border:  2px solid rgb(31, 31, 31);
+}
+
+.name,
+.quantity,
+.price {
+    flex: 1;
+    margin-right: 0.3rem;
+    padding: 0.5rem 0;
+    overflow-x:auto;
+}
+
+.name::before {
+    content: "Nome: ";
+}
+
+.quantity::before {
+    content: "Quantidade: ";
+}
+
+.price::before {
+    content: "Preço: ";
+}
+
+.btnsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.6rem;
+}
+
+.btns {
+    border: 0;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border:  1px solid rgb(31, 31, 31);
+    font-weight: 700;
+}
+
+
+.btnDelete {
+    background-color: #FF5560;
+}

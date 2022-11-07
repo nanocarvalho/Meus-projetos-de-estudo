@@ -1,0 +1,37 @@
+.app {
+    padding: 1rem;
+    background-color: var(--dark-grass);
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app h1 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--really-dark-grey);
+}
+
+.description {
+    text-align: center;
+    margin-top: 1rem;
+    opacity: 0.5;
+    color: var(--really-dark-grey);
+   
+}
+
+.description a {
+    text-decoration: none;
+    color: var(--really-dark-grey);
+}
+
+@media screen and (min-width: 768px) {
+    .app {
+        min-width: 320px;
+    }
+
+    .app h1 {
+        margin: 1rem 2rem;
+    }
+}

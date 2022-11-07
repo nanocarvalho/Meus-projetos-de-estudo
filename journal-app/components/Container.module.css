@@ -1,0 +1,22 @@
+.textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    padding: 0.6rem;
+    background-color: #CFD8DC;
+    font-weight: 500;
+}
+
+.containerP {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px){
+    .containerSection {
+        flex-basis: 250px;
+    }
+    
+}

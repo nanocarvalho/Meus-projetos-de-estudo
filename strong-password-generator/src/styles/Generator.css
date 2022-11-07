@@ -1,0 +1,22 @@
+.generator {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.generator button {
+    border: 0;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    background-color: var(--button);
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    transition: all 0.3s ease;
+}
+
+.generator button:hover {
+    background-color: var(--really-dark-grass);
+}

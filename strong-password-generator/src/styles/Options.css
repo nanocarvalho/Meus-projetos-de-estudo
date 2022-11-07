@@ -1,0 +1,28 @@
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options h2 {
+    color: var(--really-dark-grey);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.options input[type=range] {
+    margin-top: 1rem;
+}
+
+.options span {
+    font-size: 300;
+    color: var(--really-dark-grey);
+}
+
+.options div {
+    width: 65%;
+    margin: 0 auto;
+}

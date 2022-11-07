@@ -1,0 +1,19 @@
+.headerContainer {
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.btnNew {
+    border: 0;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    background-color: #fff;
+    border:  1px solid rgb(31, 31, 31);
+}
+
+@media screen and (min-width: 768px) {
+   .headerContainer {
+        padding: 1rem;
+   }
+    
+}

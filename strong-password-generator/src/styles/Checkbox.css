@@ -1,0 +1,9 @@
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    color: var(--really-dark-grey);
+}
+
+.checkbox label {
+    flex: 1;
+}

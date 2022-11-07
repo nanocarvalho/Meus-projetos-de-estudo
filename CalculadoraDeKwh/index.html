@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <script src="./js/app.js" defer></script>
+    <title>Calculadora de Kwh</title>
+</head>
+<body>
+    <h1>Calculadora de Kwh</h1>
+
+    <!-- Inputs do usuario -->
+    <p>Potência do aparelho (Watts):</p>
+    <input type="number" name="consumo" id="consumoW" min="1" placeholder="EX: 20W">
+    <!-- no fim o input de tipo number tinha setagem do valor min e max que pode receber, porém eu não tinha me atentando a isso -->
+    <p>Horas de uso por dia:</p>
+    <input type="number" name="horas" id="horas" min="1" max="24" placeholder="EX: 2h">
+    
+    <p>Dias usados:</p>
+    <input type="number" name="dias" id="dias" min="1" max="31" placeholder="EX: 10 Dias" >
+
+    <p>Preço do Kwh:</p>
+    <input type="number" name="preco" id="preco" min="0.01" step="0.01" placeholder="EX: R$0,96">
+
+    <div class="buttons">
+        <button id="calcular" onclick="calculaPreco()">Calcular</button>
+
+        <button id="clear" onclick="clearFields()"><img src="./img/trash.svg" alt="Limpa os campos de input"></button>
+    </div>
+    
+    <div class="container-resultado">
+        <p id="resultado">Gasto estimado: </p>
+        <p id="atualizaGastoKwh">0 Kwh</p>
+        <p id="atualizaPrecoReal">R$ 0,00</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+:root {
+    --really-dark-grey: #151618;
+    --button: #547532;
+    --really-dark-grass: #72a142;
+    --dark-grass: #8DBF5C;
+    --light-grey: #F6F7FB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 234, 234);
+}

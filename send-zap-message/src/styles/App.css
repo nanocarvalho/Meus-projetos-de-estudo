@@ -1,0 +1,102 @@
+.app {
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+.app img {
+    max-width: 160px;
+    margin-top: 2rem;
+}
+
+.app h1,
+.app p,
+.app img {
+    color: var(--font-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.app h1 {
+    font-size: 1.1rem;
+}
+
+.app p,
+.app span {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.app span {
+    margin-top: 1.5rem;
+}
+
+.app span a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+@media screen and (min-width: 540px) {
+    .app {
+        padding: 2rem;
+    }
+
+    .app h1,
+    .app p,
+    .app img {
+        margin-bottom: 1rem;
+    }
+
+    
+    .app img {
+        max-width: 200px;
+        margin-top: 7rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .app {
+        min-width: 100%;
+        min-height: 100vh;
+    }
+
+    .app img {
+        max-width: 280px;
+        margin-top: 2rem;
+    }
+
+    .app h1,
+    .app p {
+        max-width: 80%;
+        margin: 1rem 0;
+    }
+        
+    .app span {
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (min-width: 1080px) {
+    .app {
+        max-width: 760px;
+        min-height: 50%;
+    }
+
+    .app img {
+        margin-top: 1rem;
+        max-width: 200px;
+    }
+
+    .app h1,
+    .app p {
+        margin: 0.7rem 0;
+    }
+}

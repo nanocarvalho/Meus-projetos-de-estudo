@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Teste",
+      "tags": [
+        "No tag",
+        "Food"
+      ],
+      "quantity": 2,
+      "price": 2.31
+      
+    },
+    {
+        "name": "Teste2",
+        "tags": [
+          "No tag",
+          "Food"
+        ],
+        "quantity": 22,
+        "price": 2.41
+       
+      },
+      {
+        "name": "Teste3",
+        "tags": [
+          "No tag",
+          "Food"
+        ],
+        "quantity": 32,
+        "price": 4.31
+       
+      },
+      {
+        "name": "Teste4",
+        "tags": [
+          "No tag",
+          "Food"
+        ],
+        "quantity": 12,
+        "price": 12.31
+        
+      },
+      {
+        "name": "Teste5",
+        "tags": [
+          "No tag",
+          "Food"
+        ],
+        "quantity": 232,
+        "price": 32.31
+        
+      }
+  ]
