@@ -1,0 +1,58 @@
+.table {
+    overflow-x: scroll;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 20px 20px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tableDiv {
+    overflow-x: scroll;
+    max-width: 100%;
+}
+
+.tableHead > tr > th {
+    padding: 10px 15px;
+    letter-spacing: 0.1rem;
+    background-color: var(--accent);
+    font-size: 0.8rem;
+    color: var(--background);
+}
+
+.table caption {
+    opacity: 0.3;
+    margin-top: 6rem;
+    caption-side: bottom;
+}
+
+.table caption a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+@media screen and (min-width: 540px) {
+    .tableDiv {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }   
+
+}
+
+  
+@media screen and (min-width: 768px) {
+    .table  {
+        min-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tableHead tr th {
+        padding: 0.7rem 0.5rem;
+    }
+    .tableDiv {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }   
+
+}

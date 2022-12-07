@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Notepad</title>
+</head>
+<body>
+    <header>
+        <button class="btn" data-js="saveBtn"><span>Salvar</span></button>
+        <label class="btn" for="load">Upload</label>
+        <input data-js="loadBtn" type="file" name="load" id="load" accept=".txt" class="hidden">
+        <a href="#" class="btn" data-js="exportBtn">Exportar</a>
+    </header>
+    <div class="wrapper">
+        <textarea data-js="notepad" name="notepad" id="notepad" cols="30" rows="10"></textarea>
+    </div>
+    <p>Feito por <a href="https://github.com/nanocarvalho" rel="noopener" target="_blank">Nano Carvalho</a></p>
+</body>
+</html>

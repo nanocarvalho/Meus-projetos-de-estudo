@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./app.js"></script>
+    <title>Dólar de Hoje</title>
+</head>
+<body>
+    <main class="main-container">
+        <!-- Main Title -->
+        <div class="actualDollar">
+            <p>Dólar atual: <span data-js="actual-dollar"></span></p> 
+        </div>
+        <!-- Coin section -->
+        <div class="coinContainer">
+            <section class="usd">
+                <h2>DÓLAR</h2>
+                <input type="number" data-js="dollar-value" value="1" step="0.01">
+            </section>
+    
+            <div class="divisor"><span>Equivale a:</span></div>
+    
+            <section class="brl">
+                <h2>REAL</h2>
+                <input type="number" data-js="real-value" value="" step="0.01">
+            </section>
+        </div>
+        <div class="description">
+            Feito por <a href="https://nanocarvalho.github.io/" rel="noopener" target="_blank">Nano Carvalho</a>
+        </div>
+    </main>
+</body>
+</html>

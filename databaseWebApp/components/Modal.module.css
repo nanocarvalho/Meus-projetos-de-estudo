@@ -1,0 +1,76 @@
+.modalOpen {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-height: 60%;
+    min-width: 90%;
+    background-color: var(--background);
+    
+}
+
+.modalOpen > label {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.modalOpen > input,
+.modalOpen > select {
+    font-size: 1rem;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    background-color: var(--bg-medium);
+    border: none;
+}
+
+.modalClose {
+    display: none;
+}
+
+.bgModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.30);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.bgModalClose {
+    display: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;   
+}
+
+.btns > button:nth-child(1) {
+    background-color: var(--accent);
+}
+
+.btns > button:nth-child(2) {
+    background-color: var(--accent);
+    margin-left: 0.2rem;
+}
+
+.btns > button:nth-child(2):disabled {
+    opacity: 0.5;
+}
+
+.btns > button:nth-child(3) {
+    background-color: var(--btn-danger);
+    margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .modalOpen {
+        min-width: 45%;  
+    }
+    
+}

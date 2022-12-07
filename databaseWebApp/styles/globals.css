@@ -1,0 +1,35 @@
+:root {
+    --background: #fafafa;
+    --bg-medium: #EEEEEE;
+    --accent: #00897B;
+    --font: #212121;
+    --btn-change: #90A4AE;
+    --btn-danger: #D32F2F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    min-width: 100%;
+    background-color: var(--background);
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    padding: 0.5rem 0.7rem;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--background);
+    background-color: var(--background);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+.tableRow:nth-child(even) {
+    background-color: var(--bg-medium);
+}
+
+.tableRow > td {
+    padding: 10px 10px;
+    font-weight: 300;
+    color: var(--font);
+}
+
+.tableRow > td:nth-child(5){
+    text-align: center;
+}
+
+.btnEdit {
+    background-color: var(--btn-change);
+}
+
+.btnDelete {
+    background-color: var(--btn-danger);
+}

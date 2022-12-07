@@ -6,5 +6,11 @@ Online:
 - [Busca Cep](https://busca-cep.pages.dev/)
 - [React Password Generator](https://react-password-generator.pages.dev/)
 - [Manda Zap](https://manda-zap.pages.dev/)
-- ["Cadastro de produtos"](https://cadastro-de-produtos.pages.dev/)
+- [Web Notepad](https://web-notepad.pages.dev/)
+- [Database Webapp](https://databasewebapp.pages.dev/)
 
+Offline:
+- Todo Api
+- Dolar Hoje (Extensão)
+- Terminal Pomodoro
+- Random Jp Phrases
